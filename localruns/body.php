@@ -128,7 +128,7 @@ if(isset($_POST['cancel_run'])){
             });
                     }
                 </script>
-                <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJwP5OP0FwgBwD2hYqdsQR9yQ8BNDjyy0&callback=initMap" async defer></script>
+                <script src="https://maps.googleapis.com/maps/api/js?key=API_KEY&callback=initMap" async defer></script>
         <?php
             }
         } else {
