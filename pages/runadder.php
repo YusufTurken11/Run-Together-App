@@ -8,9 +8,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <!-- <script defer
-        src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyAJwP5OP0FwgBwD2hYqdsQR9yQ8BNDjyy0"
-        type="text/javascript"></script> -->
     <title>Add Run</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
@@ -18,7 +15,7 @@
     <link rel="stylesheet" href="style/localruns.css">
 
     <script
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJwP5OP0FwgBwD2hYqdsQR9yQ8BNDjyy0&callback=initMap&libraries=geometry,places&v=weekly"
+        src="https://maps.googleapis.com/maps/api/js?key=API_KEY&callback=initMap&libraries=geometry,places&v=weekly"
         defer></script>
 
 </head>
