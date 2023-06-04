@@ -1,0 +1,46 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+}
+
+@keyframes changeColorDirect{
+  from{
+      color: white;
+  }
+  to{
+      color: rgb(192, 0, 0);
+  }
+}
+
+.homepage-button{
+  text-decoration: none;
+  color: white;
+}
+
+.homepage-button:hover{
+  animation-name: changeColorDirect;
+  animation-duration: 500ms;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes changeColorRegister{
+  from{
+      background-color: white;
+  }
+  to{
+      background-color: rgb(192, 0, 0);
+  }
+}
+
+.register-button:hover{
+  animation-name: changeColorRegister;
+  animation-duration: 500ms;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
